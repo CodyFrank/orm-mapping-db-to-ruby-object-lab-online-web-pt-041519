@@ -49,7 +49,7 @@ class Student
     end[0..(x-1)]
   end
 
-  def first_student_in_grade_10 
+  def first_student_in_grade_10
     sql = <<-SQL
     SELECT * FROM students WHERE students.grade = 10;
     SQL
